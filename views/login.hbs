@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="public/css/form.css">
+    <link rel="stylesheet" type="text/css" href="public/css/main.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+<header>
+    <h1>Login</h1>
+
+</header>
+
+<form method="POST" action="/users/login" enctype="application/x-www-form-urlencoded">
+    <p>
+        <label for="Login">Username</label>
+        <input type="text" name="username" required/>
+    </p>
+    <p>
+        <label for="Password">Password</label>
+        <input type="password" name="password" required/>
+    </p>
+
+    <input type="submit"/>
+</form>
+<div id="make-account">Don't have an account? <a href="/register">Register right here!</a>
+
+</div>
+</body>
+</html>

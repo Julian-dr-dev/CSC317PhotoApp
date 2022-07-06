@@ -1,0 +1,21 @@
+<!--<div id="message-"> id -->
+    <!--<strong class="author-text">@</strong>username -->
+   <!-- <span class="date-posted"></span> created-->
+    <!--<div class="comment-text"></div> comment-->
+<!--</div> -->
+
+
+<div id ="post-{{id}}" class="card">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="public/css/main.css">
+    <link rel="stylesheet" type="text/css" href="public/css/form.css">
+
+    <img class="card-image" src={{thumbnail}} alt="">
+    <div class="card-body">
+
+        <p class="card-title">{{title}}</p>
+        <p class="card-text">Descrition</p>
+        <a href="/post/{{id}}" class="anchor-buttons">Post Details</a>
+    </div>
+</div>

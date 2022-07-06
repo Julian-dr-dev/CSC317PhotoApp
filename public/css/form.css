@@ -1,0 +1,147 @@
+body
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header
+{
+
+    font-size: 40px;
+    margin: 5px;
+}
+
+form
+{
+    margin: auto;
+    width: 50%;
+    padding: 1rem;
+}
+
+
+label
+{
+    display: inline-block;
+    margin: 10px;
+}
+
+input
+{
+    width: 15rem;
+    padding: 10px 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(230,230,250,0.25);
+    outline-color: #A9A9A9;
+    outline-width: 1px;
+    outline-style: double;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.userInput
+{
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.userInput label
+{
+    width: 10rem;
+    text-align: right;
+}
+
+input[type=checkbox]
+{
+    width: 10px;
+    padding: 0px 0px;
+    margin: 0px 0;
+    outline-style: none;
+}
+
+textarea
+{
+    width: 15rem;
+    padding: 10px 10px;
+    margin: 10px 0;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(230,230,250,0.25);
+    outline-color: #A9A9A9;
+    outline-width: 1px;
+    outline-style: double;
+    color: black;
+
+}
+.post
+{
+    margin: auto;
+    box-shadow: 0 25px 25px #A9A9A9;
+    background: rgba(230,230,250,0.25);
+    width: 50%;
+    padding: 1rem;
+}
+
+
+html
+{
+    background-image: url("https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468__480.jpg");
+    background-size: cover;
+}
+.details
+{
+    display: inline-block;
+    width: 10rem;
+    text-align: left;
+    font-size: 90%;
+    margin: 10px;
+}
+#nav-bar
+{
+    width: 100%;
+    background-color: rgba(230,230,250,0.25);
+    overflow: auto;
+}
+
+#nav-bar a {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+#nav-bar b {
+    text-align: center;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+#nav-bar a:hover {
+    background-color: #66FF99;
+}
+#nav-bar b:hover {
+    background-color: #66FF99;
+}
+
+#search-text
+{
+    width: 60rem;
+}
+#logo
+{
+    position:absolute;
+    left:35rem;
+    top: 5rem;
+}
+
+
+/*
+https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468__480.jpg
+ */
+
